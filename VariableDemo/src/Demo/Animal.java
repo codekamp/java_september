@@ -8,6 +8,10 @@ public class Animal {
     public String name;
 
     public void jump() {
-        System.out.println("jumping");
+
+    }
+
+    public void talk() {
+
     }
 }

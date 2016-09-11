@@ -5,8 +5,13 @@ package Demo;
  */
 public class Cat extends Animal {
 
+    public void jump() {
+        System.out.println("Cat Jumping");
+    }
+
     public void talk() {
-        System.out.println("Meow " + this.name);
+
+        System.out.println("Meow Meow!");
     }
 
 

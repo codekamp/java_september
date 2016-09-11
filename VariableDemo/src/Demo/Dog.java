@@ -6,11 +6,11 @@ package Demo;
 public class Dog extends Animal {
 
     public void jump() {
-        System.out.println("JUMPINGGGG!");
+        System.out.println("Dog jumping");
     }
 
     public void talk() {
-        System.out.println("Wuff " + this.name);
+        System.out.println("Wuff Wuff!");
     }
 
     public void chaseTail() {
