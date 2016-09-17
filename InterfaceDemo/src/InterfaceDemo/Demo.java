@@ -8,14 +8,15 @@ import java.awt.event.ActionListener;
 /**
  * Created by cerebro on 11/09/16.
  */
-public class Demo implements Educated {
+public class Demo implements ActionListener {
 
     private static JTextField usernameField;
     private static JTextField passwordField;
 
     public static void main(String[] args) {
 
-//in a variable of ABCD interface we can store objects of classes implmenting ABCD interface
+
+//in a variable of ActionListner interface we can store objects of classes implmenting ActionListner interface
 
 
         JFrame frame = new JFrame();
@@ -33,20 +34,20 @@ public class Demo implements Educated {
         panel.add(Demo.passwordField);
 
         JButton loginButton = new JButton();
-        loginButton.setText("Login!!");
+        loginButton.setText("Rajnikant");
+        loginButton.setForeground(Color.red);
 
+        Abcd abcd1 = new Abcd();
         Demo demo1 = new Demo();
         loginButton.addActionListener(demo1);
 
+        // button always calls actionPerformed when it is clicked. This is not customizable.
+        // and while calling actionPerformed it passess an object of ActionEvent to it.
+        // But function kiske upar call karna hai, this is customizable.
 
-        // demo1.actionPerformed
         panel.add(loginButton);
 
         frame.setVisible(true);
-
-        Educated var1 = new Demo();
-
-
     }
 
     public void login() {
@@ -56,16 +57,17 @@ public class Demo implements Educated {
         System.out.println("username: " + username);
         System.out.println("password: " + password);
     }
-    @Override
-    public void read(String text) {
+
+    public static int add(int firstNum, int secondNum) {
+        return firstNum + secondNum;
+    }
+
+    public void actionPerformed(Abcd a) {
 
     }
 
     @Override
-    public void write(String text) {
-
+    public void actionPerformed(ActionEvent e) {
+        System.out.println("");
     }
-
-    // codecademy.com
-    // programmingByDoing.com
 }
