@@ -10,9 +10,12 @@ import java.awt.event.ActionListener;
  */
 public class Demo implements ActionListener {
 
-    private static JLabel label;
-    private static JButton colorButton;
-    private static JButton duplicateButton;
+    private JLabel label;
+    private JButton colorButton;
+    private JButton duplicateButton;
+
+    private Demo[] childWindows = new Demo[30];
+    private int childCount = 0;
 
     public static void main(String[] args) {
         Demo.createWindow();
@@ -21,14 +24,15 @@ public class Demo implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
 
-        if(e.getSource() == Demo.colorButton) {
-            if (Demo.label.getForeground() == Color.green) {
-                Demo.label.setForeground(Color.red);
+        if (e.getSource() == this.colorButton) {
+            if (this.label.getForeground() == Color.green) {
+                this.label.setForeground(Color.red);
             } else {
-                Demo.label.setForeground(Color.green);
+                this.label.setForeground(Color.green);
             }
-        } else if (e.getSource() == Demo.duplicateButton) {
-            Demo.createWindow();
+        } else if (e.getSource() == this.duplicateButton) {
+            this.childWindows[childCount] = Demo.createWindow();
+            this.childCount++;
         } else {
             System.out.println("some other button clicked");
         }
@@ -36,30 +40,33 @@ public class Demo implements ActionListener {
 
     }
 
-    public static void createWindow() {
+    public static Demo createWindow() {
         JFrame frame = new JFrame();
         frame.setSize(400, 500);
 
         JPanel panel = new JPanel();
         frame.add(panel);
 
-        Demo.colorButton = new JButton();
-        Demo.colorButton.setText("Change Color");
         Demo demo1 = new Demo();
-        Demo.colorButton.addActionListener(demo1);
-        panel.add(Demo.colorButton);
 
-        Demo.duplicateButton = new JButton();
-        Demo.duplicateButton.setText("duplicate");
-        Demo demo2 = new Demo();
-        Demo.duplicateButton.addActionListener(demo2);
-        panel.add(Demo.duplicateButton);
+        demo1.colorButton = new JButton();
+        demo1.colorButton.setText("Change Color");
 
-        Demo.label = new JLabel();
-        Demo.label.setText("Hello World!");
-        Demo.label.setForeground(Color.green);
-        panel.add(Demo.label);
+        demo1.colorButton.addActionListener(demo1);
+        panel.add(demo1.colorButton);
+
+        demo1.duplicateButton = new JButton();
+        demo1.duplicateButton.setText("duplicate");
+        demo1.duplicateButton.addActionListener(demo1);
+        panel.add(demo1.duplicateButton);
+
+        demo1.label = new JLabel();
+        demo1.label.setText("Hello World!");
+        demo1.label.setForeground(Color.green);
+        panel.add(demo1.label);
 
         frame.setVisible(true);
+
+        return demo1;
     }
 }
