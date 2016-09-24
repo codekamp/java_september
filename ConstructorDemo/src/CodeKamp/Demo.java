@@ -6,6 +6,6 @@ package CodeKamp;
 public class Demo {
     public static void main(String[] args) {
 
-        Dog dog1 = new Dog(20);
+        Dog dog1 = new Dog();
     }
 }

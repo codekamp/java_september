@@ -16,4 +16,31 @@ public class Dog extends Animal {
        // a. child class has no constructor
        // b. parent class has default (i.e. paramterless) constructor
 
+
+    // 5. First line in any constructor should be a call to some parent constructor
+    // directly or indirectly.
+
+
+    public Dog() {
+        this("Hello");
+
+
+        System.out.println("Default Dog Constructor");
+    }
+
+    public Dog(String a) {
+        super(1);
+        System.out.println("Dog Constructor that takes string");
+    }
+
+    public void talk() {
+        System.out.println("talk function of dog class");
+        this.walk();
+    }
+
+    public void walk() {
+        System.out.println("walk function of dog class");
+    }
+
+
 }
