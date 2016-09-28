@@ -1,72 +1,52 @@
 package Hello;
 
+
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.io.IOException;
 
 /**
  * Created by cerebro on 17/09/16.
  */
-public class Demo implements ActionListener {
-
-    private JLabel label;
-    private JButton colorButton;
-    private JButton duplicateButton;
-
-    private Demo[] childWindows = new Demo[30];
-    private int childCount = 0;
+public class Demo {
 
     public static void main(String[] args) {
-        Demo.createWindow();
-    }
 
-    @Override
-    public void actionPerformed(ActionEvent e) {
+        JFrame frame = new JFrame();
 
-        if (e.getSource() == this.colorButton) {
-            if (this.label.getForeground() == Color.green) {
-                this.label.setForeground(Color.red);
-            } else {
-                this.label.setForeground(Color.green);
-            }
-        } else if (e.getSource() == this.duplicateButton) {
-            this.childWindows[childCount] = Demo.createWindow();
-            this.childCount++;
-        } else {
-            System.out.println("some other button clicked");
+        JPanel panel = new JPanel();
+        panel.setPreferredSize(new Dimension(800, 450));
+        frame.add(panel);
+
+
+        frame.pack();
+        frame.setResizable(false);
+        frame.setVisible(true);
+
+        try {
+            Thread.sleep(300);
+        } catch (InterruptedException e) {
+
+        }
+
+        Image grassImage = null;
+        Image playerImage = null;
+
+        try {
+            grassImage = ImageIO.read(Demo.class.getResource("Images/grass.png"));
+            playerImage = ImageIO.read(Demo.class.getResource("Images/run_anim1.png"));
+        } catch (IOException e) {
+            System.out.println("unable to read image");
         }
 
 
-    }
 
-    public static Demo createWindow() {
-        JFrame frame = new JFrame();
-        frame.setSize(400, 500);
-
-        JPanel panel = new JPanel();
-        frame.add(panel);
-
-        Demo demo1 = new Demo();
-
-        demo1.colorButton = new JButton();
-        demo1.colorButton.setText("Change Color");
-
-        demo1.colorButton.addActionListener(demo1);
-        panel.add(demo1.colorButton);
-
-        demo1.duplicateButton = new JButton();
-        demo1.duplicateButton.setText("duplicate");
-        demo1.duplicateButton.addActionListener(demo1);
-        panel.add(demo1.duplicateButton);
-
-        demo1.label = new JLabel();
-        demo1.label.setText("Hello World!");
-        demo1.label.setForeground(Color.green);
-        panel.add(demo1.label);
-
-        frame.setVisible(true);
-
-        return demo1;
+        while (true) {
+            Graphics g = panel.getGraphics();
+            g.drawImage(grassImage, 0, 405, null);
+            g.drawImage(playerImage, 400, 315, null);
+            g.dispose();
+        }
     }
 }
