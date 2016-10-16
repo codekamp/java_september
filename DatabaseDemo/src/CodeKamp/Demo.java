@@ -6,7 +6,7 @@ import java.sql.*;
  * Created by cerebro on 02/10/16.
  */
 public class Demo {
-    public static void main(String[] args) {
+    public static void main(String[] args){
 
         try {
             Class.forName("org.sqlite.JDBC");
@@ -14,11 +14,12 @@ public class Demo {
             System.out.println("Your computer doens't have SQLite JDBC. Please click here to install it.");
         }
 
+        Connection connection = null;
         try {
-            Connection connection = DriverManager.getConnection("jdbc:sqlite:src/CodeKamp/codekamp.sqlite");
+            connection = DriverManager.getConnection("jdbc:sqlite:src/CodeKamp/codekamp.sqlite");
             Statement statement = connection.createStatement();
 
-            ResultSet resultSet = statement.executeQuery("SELECT * FROM students");
+            ResultSet resultSet = statement.executeQuery("SELECT * FROM students WHERE age > 25");
 
             while(resultSet.next()) {
                 System.out.println(resultSet.getString("name"));
@@ -26,7 +27,13 @@ public class Demo {
             }
 
         } catch (SQLException e) {
-            
+
+        } finally {
+            try {
+                connection.close();
+            } catch (SQLException e) {
+
+            }
         }
     }
 }
