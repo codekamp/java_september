@@ -2,11 +2,13 @@ package CodeKamp;
 
 import CodeKamp.States.MenuState;
 import CodeKamp.States.State;
+import com.sun.javafx.iio.ImageStorage;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
+import java.awt.image.BufferedImage;
 
 /**
  * Created by cerebro on 19/10/16.
@@ -32,11 +34,14 @@ public class GamePanel extends JPanel implements Runnable, KeyListener {
         GamePanel.currentState = new MenuState();
 
         Thread thread = new Thread(this);
-        thread.setName("infinite loop thread");
+        thread.setName("game");
         thread.start();
     }
 
     public void run() {
+
+        BufferedImage bigImage = new BufferedImage(800, 450, BufferedImage.TYPE_INT_RGB);
+
         while (true) {
             try {
                 Thread.sleep(30);
@@ -47,7 +52,11 @@ public class GamePanel extends JPanel implements Runnable, KeyListener {
             GamePanel.currentState.update();
 
             Graphics panelGraphics = this.getGraphics();
-            GamePanel.currentState.render(panelGraphics);
+            Graphics imageGraphics = bigImage.getGraphics();
+            imageGraphics.clearRect(0,0,800,450);
+            GamePanel.currentState.render(imageGraphics);
+            imageGraphics.dispose();
+            panelGraphics.drawImage(bigImage, 0,0,null);
             panelGraphics.dispose();
         }
     }
@@ -59,6 +68,7 @@ public class GamePanel extends JPanel implements Runnable, KeyListener {
 
     @Override
     public void keyPressed(KeyEvent e) {
+
         GamePanel.currentState.onKeyPressed(e.getKeyCode());
     }
 

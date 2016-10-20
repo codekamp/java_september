@@ -52,6 +52,7 @@ public class Resources {
     public static void unload() {
         Resources.grassImage = null;
         Resources.blockImage = null;
+        Resources.welcomeImage = null;
 
         System.gc();
     }
