@@ -13,6 +13,7 @@ abstract public class Entity {
     public int yVel;
     public int xAcc;
     public int yAcc;
+    public boolean isHidden;
 
     public Entity(int x, int y) {
         super();
@@ -22,6 +23,7 @@ abstract public class Entity {
         this.yAcc = 0;
         this.xVel = 0;
         this.yVel = 0;
+        this.isHidden = false;
     }
 
     public void update() {
@@ -34,13 +36,17 @@ abstract public class Entity {
     abstract public Image getImage();
 
     public boolean isCollidingWith(Entity otherEntity) {
+        if(this.isHidden || otherEntity.isHidden) {
+            return false;
+        }
+
         return this.getRect().intersects(otherEntity.getRect());
     }
 
     abstract protected int getWidth();
     abstract protected int getHeight();
 
-    private Rectangle getRect() {
+    protected Rectangle getRect() {
         return new Rectangle(this.x, this.y, this.getWidth(), this.getHeight());
     }
 }

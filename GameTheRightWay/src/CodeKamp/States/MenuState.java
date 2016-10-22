@@ -14,11 +14,6 @@ public class MenuState extends State {
     private int selection = 0;
 
     @Override
-    public void update() {
-
-    }
-
-    @Override
     public void render(Graphics graphics) {
         graphics.drawImage(Resources.welcomeImage, 0, 0, null);
 
@@ -34,6 +29,7 @@ public class MenuState extends State {
 
     @Override
     public void onKeyPressed(int keyCode) {
+
         if(keyCode == KeyEvent.VK_SPACE) {
             if(this.selection == 0) {
                 GamePanel.currentState = new Stage1State();

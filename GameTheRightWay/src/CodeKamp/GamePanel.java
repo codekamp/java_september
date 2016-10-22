@@ -17,8 +17,12 @@ public class GamePanel extends JPanel implements Runnable, KeyListener {
 
     public static State currentState;
 
+    public static final int GAME_WIDTH = 800;
+    public static final int GAME_HEIGHT = 450;
+
     public GamePanel() {
-        this.setPreferredSize(new Dimension(800, 450));
+
+        this.setPreferredSize(new Dimension(GamePanel.GAME_WIDTH, GamePanel.GAME_HEIGHT));
     }
 
     @Override
@@ -40,7 +44,7 @@ public class GamePanel extends JPanel implements Runnable, KeyListener {
 
     public void run() {
 
-        BufferedImage bigImage = new BufferedImage(800, 450, BufferedImage.TYPE_INT_RGB);
+        BufferedImage bigImage = new BufferedImage(GamePanel.GAME_WIDTH, GamePanel.GAME_HEIGHT, BufferedImage.TYPE_INT_RGB);
 
         while (true) {
             try {
@@ -53,7 +57,7 @@ public class GamePanel extends JPanel implements Runnable, KeyListener {
 
             Graphics panelGraphics = this.getGraphics();
             Graphics imageGraphics = bigImage.getGraphics();
-            imageGraphics.clearRect(0,0,800,450);
+            imageGraphics.clearRect(0, 0, GamePanel.GAME_WIDTH, GamePanel.GAME_HEIGHT);
             GamePanel.currentState.render(imageGraphics);
             imageGraphics.dispose();
             panelGraphics.drawImage(bigImage, 0,0,null);

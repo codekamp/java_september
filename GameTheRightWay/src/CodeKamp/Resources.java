@@ -5,6 +5,8 @@ import java.applet.Applet;
 import java.applet.AudioClip;
 import java.awt.*;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by cerebro on 19/10/16.
@@ -15,12 +17,9 @@ public class Resources {
 
     public static Image grassImage;
     public static Image blockImage;
-    public static Image player1Image;
-    public static Image player2Image;
-    public static Image player3Image;
-    public static Image player4Image;
-    public static Image player5Image;
+    public static List<Image> playerImages;
     public static Image playerJumpImage;
+    public static Image playerDuckImage;
     public static Image welcomeImage;
     public static Image selectorImage;
     public static Color backgroundColor;
@@ -31,11 +30,21 @@ public class Resources {
         try {
             Resources.grassImage = ImageIO.read(Resources.class.getResource("images/grass.png"));
             Resources.blockImage = ImageIO.read(Resources.class.getResource("images/block.png"));
-            Resources.player1Image = ImageIO.read(Resources.class.getResource("images/run_anim1.png"));
-            Resources.player2Image = ImageIO.read(Resources.class.getResource("images/run_anim2.png"));
-            Resources.player3Image = ImageIO.read(Resources.class.getResource("images/run_anim3.png"));
-            Resources.player4Image = ImageIO.read(Resources.class.getResource("images/run_anim4.png"));
-            Resources.player5Image = ImageIO.read(Resources.class.getResource("images/run_anim5.png"));
+            Image player1Image = ImageIO.read(Resources.class.getResource("images/run_anim1.png"));
+            Image player2Image = ImageIO.read(Resources.class.getResource("images/run_anim2.png"));
+            Image player3Image = ImageIO.read(Resources.class.getResource("images/run_anim3.png"));
+            Image player4Image = ImageIO.read(Resources.class.getResource("images/run_anim4.png"));
+            Image player5Image = ImageIO.read(Resources.class.getResource("images/run_anim5.png"));
+            Resources.playerDuckImage = ImageIO.read(Resources.class.getResource("images/duck.png"));
+            Resources.playerImages = new ArrayList<>();
+            Resources.playerImages.add(player1Image);
+            Resources.playerImages.add(player2Image);
+            Resources.playerImages.add(player3Image);
+            Resources.playerImages.add(player4Image);
+            Resources.playerImages.add(player5Image);
+            Resources.playerImages.add(player4Image);
+            Resources.playerImages.add(player3Image);
+            Resources.playerImages.add(player2Image);
             Resources.playerJumpImage = ImageIO.read(Resources.class.getResource("images/jump.png"));
             Resources.welcomeImage = ImageIO.read(Resources.class.getResource("images/welcome.png"));
             Resources.selectorImage = ImageIO.read(Resources.class.getResource("images/selector.png"));
@@ -53,6 +62,7 @@ public class Resources {
         Resources.grassImage = null;
         Resources.blockImage = null;
         Resources.welcomeImage = null;
+        Resources.playerDuckImage = null;
 
         System.gc();
     }

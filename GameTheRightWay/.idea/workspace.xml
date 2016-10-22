@@ -23,36 +23,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Demo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CodeKamp/Demo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="34" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GamePanel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CodeKamp/GamePanel.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="71" column="43" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="43" />
+              <caret line="75" column="30" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
-                <element signature="e#511#512#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BufferedImage.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home/src.zip!/java/awt/image/BufferedImage.java">
+      <file leaf-file-name="Stage1State.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CodeKamp/States/Stage1State.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="69" column="49" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="49" />
-              <folding />
+              <caret line="58" column="46" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Stage2State.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CodeKamp/States/Stage2State.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,36 +63,27 @@
         <entry file="file://$PROJECT_DIR$/src/CodeKamp/States/MenuState.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="40" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Stage1State.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/CodeKamp/States/Stage1State.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.4389141">
-              <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
+      <file leaf-file-name="welcome.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CodeKamp/Images/welcome.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Entity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Entity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CodeKamp/Entities/Entity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="35" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.4265659">
+              <caret line="20" column="14" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="14" />
               <folding>
-                <element signature="e#684#685#0" expanded="true" />
-                <element signature="e#755#756#0" expanded="true" />
-                <element signature="e#870#871#0" expanded="true" />
-                <element signature="e#957#958#0" expanded="true" />
+                <element signature="e#1021#1022#0" expanded="true" />
+                <element signature="e#1108#1109#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,35 +93,9 @@
         <entry file="file://$PROJECT_DIR$/src/CodeKamp/Entities/Block.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#341#342#0" expanded="true" />
-                <element signature="e#384#385#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#455#456#0" expanded="true" />
-                <element signature="e#502#503#0" expanded="true" />
-                <element signature="e#527#528#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CodeKamp/Entities/Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#189#190#0" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
-                <element signature="e#261#262#0" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#377#378#0" expanded="true" />
-                <element signature="e#424#425#0" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,9 +105,23 @@
         <entry file="file://$PROJECT_DIR$/src/CodeKamp/Resources.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+              <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CodeKamp/Entities/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1431#1432#0" expanded="true" />
+                <element signature="e#1464#1465#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -150,7 +131,7 @@
         <entry file="file://$PROJECT_DIR$/src/CodeKamp/States/State.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -175,16 +156,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/CodeKamp/States/Stage2State.java" />
         <option value="$PROJECT_DIR$/src/CodeKamp/Demo.java" />
-        <option value="$PROJECT_DIR$/src/CodeKamp/States/MenuState.java" />
-        <option value="$PROJECT_DIR$/src/CodeKamp/GamePanel.java" />
-        <option value="$PROJECT_DIR$/src/CodeKamp/Resources.java" />
-        <option value="$PROJECT_DIR$/src/CodeKamp/States/State.java" />
         <option value="$PROJECT_DIR$/src/CodeKamp/Entities/Entity.java" />
-        <option value="$PROJECT_DIR$/src/CodeKamp/Entities/Block.java" />
         <option value="$PROJECT_DIR$/src/CodeKamp/Entities/Player.java" />
+        <option value="$PROJECT_DIR$/src/CodeKamp/States/GameOverState.java" />
+        <option value="$PROJECT_DIR$/src/CodeKamp/Resources.java" />
+        <option value="$PROJECT_DIR$/src/CodeKamp/GamePanel.java" />
+        <option value="$PROJECT_DIR$/src/CodeKamp/States/MenuState.java" />
+        <option value="$PROJECT_DIR$/src/CodeKamp/Entities/Block.java" />
         <option value="$PROJECT_DIR$/src/CodeKamp/States/Stage1State.java" />
+        <option value="$PROJECT_DIR$/src/CodeKamp/States/Stage2State.java" />
+        <option value="$PROJECT_DIR$/src/CodeKamp/States/State.java" />
       </list>
     </option>
   </component>
@@ -192,12 +174,22 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
   <component name="NamedScopeManager">
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="width" value="1280" />
+    <option name="height" value="1024" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -222,9 +214,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -279,12 +268,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="States" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameTheRightWay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameTheRightWay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeKamp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Entities" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -588,15 +602,16 @@
       <option name="number" value="Default" />
       <updated>1476876706999</updated>
       <workItem from="1476876708998" duration="6016000" />
-      <workItem from="1476963102588" duration="6051000" />
+      <workItem from="1476963102588" duration="6054000" />
+      <workItem from="1477125502900" duration="10320000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12067000" />
+    <option name="totallyTimeSpent" value="22390000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="1024" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -613,16 +628,16 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22051696" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43373495" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22051696" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43291405" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -635,20 +650,20 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39937106" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914045" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22051696" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3773585" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43291405" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -656,13 +671,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/CodeKamp/States/Stage1State.java</url>
-          <line>54</line>
-          <properties />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
@@ -672,6 +680,162 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/CodeKamp/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodeKamp/GamePanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="71" column="43" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home/src.zip!/java/awt/image/BufferedImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="69" column="49" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#62795#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#33503#33504#0" expanded="false" />
+            <element signature="e#33535#33536#0" expanded="false" />
+            <element signature="e#33723#33724#0" expanded="false" />
+            <element signature="e#33756#33757#0" expanded="false" />
+            <element signature="e#33948#33949#0" expanded="false" />
+            <element signature="e#33977#33978#0" expanded="false" />
+            <element signature="e#35229#35230#0" expanded="false" />
+            <element signature="e#35285#35286#0" expanded="false" />
+            <element signature="e#36407#36408#0" expanded="false" />
+            <element signature="e#36483#36484#0" expanded="false" />
+            <element signature="e#42251#42252#0" expanded="false" />
+            <element signature="e#42291#42292#0" expanded="false" />
+            <element signature="e#42459#42460#0" expanded="false" />
+            <element signature="e#42500#42501#0" expanded="false" />
+            <element signature="e#42718#42719#0" expanded="false" />
+            <element signature="e#42758#42759#0" expanded="false" />
+            <element signature="e#42979#42980#0" expanded="false" />
+            <element signature="e#43020#43021#0" expanded="false" />
+            <element signature="e#44700#44701#0" expanded="false" />
+            <element signature="e#44740#44741#0" expanded="false" />
+            <element signature="e#45849#45850#0" expanded="false" />
+            <element signature="e#45888#45889#0" expanded="false" />
+            <element signature="e#47770#47771#0" expanded="false" />
+            <element signature="e#47826#47827#0" expanded="false" />
+            <element signature="e#49861#49862#0" expanded="false" />
+            <element signature="e#49888#49889#0" expanded="false" />
+            <element signature="e#50335#50336#0" expanded="false" />
+            <element signature="e#50363#50364#0" expanded="false" />
+            <element signature="e#50604#50605#0" expanded="false" />
+            <element signature="e#50643#50644#0" expanded="false" />
+            <element signature="e#50884#50885#0" expanded="false" />
+            <element signature="e#50923#50924#0" expanded="false" />
+            <element signature="e#51178#51179#0" expanded="false" />
+            <element signature="e#51224#51225#0" expanded="false" />
+            <element signature="e#51410#51411#0" expanded="false" />
+            <element signature="e#51434#51435#0" expanded="false" />
+            <element signature="e#51620#51621#0" expanded="false" />
+            <element signature="e#51644#51645#0" expanded="false" />
+            <element signature="e#51836#51837#0" expanded="false" />
+            <element signature="e#51860#51861#0" expanded="false" />
+            <element signature="e#52052#52053#0" expanded="false" />
+            <element signature="e#52076#52077#0" expanded="false" />
+            <element signature="e#52207#52208#0" expanded="false" />
+            <element signature="e#52246#52247#0" expanded="false" />
+            <element signature="e#52380#52381#0" expanded="false" />
+            <element signature="e#52420#52421#0" expanded="false" />
+            <element signature="e#52693#52694#0" expanded="false" />
+            <element signature="e#52749#52750#0" expanded="false" />
+            <element signature="e#53022#53023#0" expanded="false" />
+            <element signature="e#53078#53079#0" expanded="false" />
+            <element signature="e#61275#61276#0" expanded="false" />
+            <element signature="e#61302#61303#0" expanded="false" />
+            <element signature="e#61774#61775#0" expanded="false" />
+            <element signature="e#61803#61804#0" expanded="false" />
+            <element signature="e#62740#62741#0" expanded="false" />
+            <element signature="e#62791#62792#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodeKamp/States/MenuState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodeKamp/States/Stage1State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodeKamp/Entities/Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="35" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="35" />
+          <folding>
+            <element signature="e#1021#1022#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodeKamp/Entities/Block.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodeKamp/Entities/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1431#1432#0" expanded="true" />
+            <element signature="e#1464#1465#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodeKamp/Resources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodeKamp/States/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/CodeKamp/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -686,8 +850,6 @@
           <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -706,9 +868,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -719,14 +879,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CodeKamp/States/Stage2State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -754,9 +906,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#1794#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -786,9 +935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#1794#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -812,19 +958,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CodeKamp/States/Stage2State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CodeKamp/Images/welcome.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home/src.zip!/java/awt/Image.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -837,18 +970,113 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="69" column="49" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#62795#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#33503#33504#0" expanded="false" />
+            <element signature="e#33535#33536#0" expanded="false" />
+            <element signature="e#33723#33724#0" expanded="false" />
+            <element signature="e#33756#33757#0" expanded="false" />
+            <element signature="e#33948#33949#0" expanded="false" />
+            <element signature="e#33977#33978#0" expanded="false" />
+            <element signature="e#35229#35230#0" expanded="false" />
+            <element signature="e#35285#35286#0" expanded="false" />
+            <element signature="e#36407#36408#0" expanded="false" />
+            <element signature="e#36483#36484#0" expanded="false" />
+            <element signature="e#42251#42252#0" expanded="false" />
+            <element signature="e#42291#42292#0" expanded="false" />
+            <element signature="e#42459#42460#0" expanded="false" />
+            <element signature="e#42500#42501#0" expanded="false" />
+            <element signature="e#42718#42719#0" expanded="false" />
+            <element signature="e#42758#42759#0" expanded="false" />
+            <element signature="e#42979#42980#0" expanded="false" />
+            <element signature="e#43020#43021#0" expanded="false" />
+            <element signature="e#44700#44701#0" expanded="false" />
+            <element signature="e#44740#44741#0" expanded="false" />
+            <element signature="e#45849#45850#0" expanded="false" />
+            <element signature="e#45888#45889#0" expanded="false" />
+            <element signature="e#47770#47771#0" expanded="false" />
+            <element signature="e#47826#47827#0" expanded="false" />
+            <element signature="e#49861#49862#0" expanded="false" />
+            <element signature="e#49888#49889#0" expanded="false" />
+            <element signature="e#50335#50336#0" expanded="false" />
+            <element signature="e#50363#50364#0" expanded="false" />
+            <element signature="e#50604#50605#0" expanded="false" />
+            <element signature="e#50643#50644#0" expanded="false" />
+            <element signature="e#50884#50885#0" expanded="false" />
+            <element signature="e#50923#50924#0" expanded="false" />
+            <element signature="e#51178#51179#0" expanded="false" />
+            <element signature="e#51224#51225#0" expanded="false" />
+            <element signature="e#51410#51411#0" expanded="false" />
+            <element signature="e#51434#51435#0" expanded="false" />
+            <element signature="e#51620#51621#0" expanded="false" />
+            <element signature="e#51644#51645#0" expanded="false" />
+            <element signature="e#51836#51837#0" expanded="false" />
+            <element signature="e#51860#51861#0" expanded="false" />
+            <element signature="e#52052#52053#0" expanded="false" />
+            <element signature="e#52076#52077#0" expanded="false" />
+            <element signature="e#52207#52208#0" expanded="false" />
+            <element signature="e#52246#52247#0" expanded="false" />
+            <element signature="e#52380#52381#0" expanded="false" />
+            <element signature="e#52420#52421#0" expanded="false" />
+            <element signature="e#52693#52694#0" expanded="false" />
+            <element signature="e#52749#52750#0" expanded="false" />
+            <element signature="e#53022#53023#0" expanded="false" />
+            <element signature="e#53078#53079#0" expanded="false" />
+            <element signature="e#61275#61276#0" expanded="false" />
+            <element signature="e#61302#61303#0" expanded="false" />
+            <element signature="e#61774#61775#0" expanded="false" />
+            <element signature="e#61803#61804#0" expanded="false" />
+            <element signature="e#62740#62741#0" expanded="false" />
+            <element signature="e#62791#62792#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home/src.zip!/java/awt/event/KeyEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="205" column="40" selection-start-line="205" selection-start-column="28" selection-end-line="205" selection-end-column="40" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodeKamp/Images/duck.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodeKamp/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodeKamp/States/GameOverState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="48" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodeKamp/Images/welcome.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CodeKamp/GamePanel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="71" column="43" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="43" />
+          <caret line="75" column="30" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -856,7 +1084,47 @@
     <entry file="file://$PROJECT_DIR$/src/CodeKamp/States/MenuState.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="40" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="40" />
+          <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodeKamp/Entities/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1431#1432#0" expanded="true" />
+            <element signature="e#1464#1465#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodeKamp/States/Stage1State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="46" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodeKamp/States/Stage2State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodeKamp/Entities/Block.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -866,7 +1134,7 @@
     <entry file="file://$PROJECT_DIR$/src/CodeKamp/Resources.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -876,7 +1144,7 @@
     <entry file="file://$PROJECT_DIR$/src/CodeKamp/States/State.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -885,65 +1153,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CodeKamp/Entities/Entity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="35" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.4265659">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="14" />
           <folding>
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
-            <element signature="e#957#958#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CodeKamp/Entities/Block.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CodeKamp/Entities/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CodeKamp/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CodeKamp/States/Stage1State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4389141">
-          <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
           </folding>
         </state>
       </provider>

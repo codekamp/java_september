@@ -1,6 +1,9 @@
 package CodeKamp.Entities;
 
+import CodeKamp.GamePanel;
 import CodeKamp.Resources;
+import CodeKamp.States.Stage1State;
+import CodeKamp.States.State;
 
 import java.awt.*;
 import java.util.Random;
@@ -38,6 +41,12 @@ public class Block extends Entity {
         if(this.x <= -20) {
             this.x = 980;
             this.y = this.getRandomYCord();
+
+            if(!this.isHidden) {
+                State.blockPassedCount++;
+            }
+
+            this.isHidden = false;
         }
     }
 
@@ -50,6 +59,6 @@ public class Block extends Entity {
             return 355;
         }
 
-        return 295;
+        return 275;
     }
 }

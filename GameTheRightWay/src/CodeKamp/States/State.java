@@ -14,12 +14,18 @@ abstract public class State {
     protected List<Entity> entities = new ArrayList<>();
 
     public void update() {
-        for(Entity entity: this.entities) {
+        for (Entity entity : this.entities) {
             entity.update();
         }
     }
 
-    abstract public void render(Graphics graphics);
+    public void render(Graphics graphics) {
+        for (Entity entity : this.entities) {
+            if (!entity.isHidden) {
+                graphics.drawImage(entity.getImage(), entity.x, entity.y, null);
+            }
+        }
+    }
 
     abstract public void onKeyPressed(int keyCode);
 }
