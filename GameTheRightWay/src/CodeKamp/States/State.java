@@ -11,6 +11,8 @@ import java.util.List;
  */
 abstract public class State {
 
+    public static int blockPassedCount = 0;
+
     protected List<Entity> entities = new ArrayList<>();
 
     public void update() {

@@ -1,7 +1,6 @@
 package CodeKamp.States;
 
 import CodeKamp.Entities.Block;
-import CodeKamp.Entities.Entity;
 import CodeKamp.Entities.Player;
 import CodeKamp.GamePanel;
 import CodeKamp.Resources;
@@ -9,14 +8,13 @@ import CodeKamp.Resources;
 import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by cerebro on 19/10/16.
  */
 public class Stage1State extends State {
 
-    private List<Block> blocks = new ArrayList<>();
+    private java.util.List<Block> blocks = new ArrayList<>();
     private Player player;
 
     private static final int PLAYER_GROUND_LEVEL = 315;
